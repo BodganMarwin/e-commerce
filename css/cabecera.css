@@ -48,4 +48,12 @@
     .cabecera__menu{
         padding: 2rem 9.5rem;
     }
+    .cabecera__logo{
+        height: 3.125rem;
+    }
+    .cabacera__search{
+        width: 24.563rem;
+        display: flex;
+        justify-content: space-between;
+    }
 }
