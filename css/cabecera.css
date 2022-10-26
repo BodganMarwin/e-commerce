@@ -7,11 +7,15 @@
 }
 .cabecera__busqueda{
     display: flex;
+    align-items: center;
 }
 .cabecera__logo{
     height: 1.75rem;
 }
 .cabacera__search{
+    display: none;
+}
+.cabecera__formbuscar__box-boton{
     display: none;
 }
 .cabecera__login{
@@ -31,14 +35,26 @@
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    .cabecera__formbuscar__box{
+        position: relative;
+    }
     .cabacera__search{
         background: var(--background-color-preto);
         border: none;
         border-radius: 100px;
         display: block;
         margin-left: 2rem;
-        padding: 0 1rem;
+        padding: 1rem 1rem;
         width: 208px;
+    }
+    .cabecera__formbuscar__box-boton{
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        position: absolute;
+        right: 11px;
+        top: 10%;
     }
     .cabacera__logo-search{
         display: none;
@@ -51,6 +67,7 @@
     .cabecera__logo{
         height: 3.125rem;
     }
+
     .cabacera__search{
         width: 24.563rem;
         display: flex;
