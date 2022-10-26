@@ -3,12 +3,14 @@
     --background-color-azul: #2A7AE4;
     --background-color-azul-claro: #EAF2FD;
     --background-color-preto: #F5F5F5;
+    --background-color-preto-claro: #C5C5C5;
 
 
     /*Colores de Fuente*/
     --color-fuente-azul: #2A7AE4;
     --color-fuente-blanco: #FFFFFF;
     --color-fuente-preto: #464646;
+    --color-fuente-preto-claro: #A2A2A2;
     --color-fuente-rojo: red;
 
     /*Colores de botones*/
@@ -24,4 +26,8 @@
 body{
     font-family: 'Raleway', cursive;
     font-size: 1rem;
+}
+input::placeholder, textarea::placeholder{
+    color: var(--background-color-preto-claro);
+    font-weight: 400;
 }
