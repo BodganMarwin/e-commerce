@@ -39,6 +39,9 @@
 .contacto__form__box{
     padding-bottom: 1rem;
 }
+.contacto__form__box__error{
+    color: var(--color-fuente-rojo);
+}
 .contacto__form__input{
     border: none;
     border-radius: 5px;
