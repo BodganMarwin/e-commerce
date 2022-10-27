@@ -81,4 +81,7 @@
         display: flex;
         justify-content: space-between;
     }
+    .cabecera__login{
+        font-size: 1rem;
+    }
 }
