@@ -18,6 +18,14 @@
 .cabecera__formbuscar__box-boton{
     display: none;
 }
+.cabecera__menu-admin{
+    background: var(--background-color-blanco);
+    border-color: var(--color-boton-azul);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0;
+    color: var(--color-fuente-azul);
+    padding: .75rem 0.938rem;
+}
 .cabecera__login{
     background: var(--background-color-blanco);
     border-color: var(--color-boton-azul);
@@ -41,11 +49,11 @@
     .cabacera__search{
         background: var(--background-color-preto);
         border: none;
-        border-radius: 100px;
+        border-radius: 50px;
         display: block;
         margin-left: 2rem;
         padding: 1rem 1rem;
-        width: 208px;
+        width: 272px;
     }
     .cabecera__formbuscar__box-boton{
         display: block;

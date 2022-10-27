@@ -11,6 +11,7 @@
     --color-fuente-blanco: #FFFFFF;
     --color-fuente-preto: #464646;
     --color-fuente-preto-claro: #A2A2A2;
+    --color-fuente-preto-50: #A2A2A2;
     --color-fuente-rojo: red;
 
     /*Colores de botones*/
@@ -19,6 +20,7 @@
     /*color de sombra*/
     --color-sombra-plomo-oscuro: #2f2f2f;
     --color-sombra-plomo-claro: #8f8f8f;
+    --color-sombra-preto-30: #C8C8C8;
 
     /*fuentes*/
     --fuente-releway: 'Raleway', cursive;
@@ -26,8 +28,4 @@
 body{
     font-family: 'Raleway', cursive;
     font-size: 1rem;
-}
-input::placeholder, textarea::placeholder{
-    color: var(--background-color-preto-claro);
-    font-weight: 400;
 }
